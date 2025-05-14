@@ -19,16 +19,16 @@ By leveraging five years of **STATS19** data, this project trains five classific
   - Train and tune Logistic Regression, Decision Tree, Random Forest, XGBoost, CatBoost.
   - Evaluate via classification reports (precision, recall, F1).
   - Visualize confusion matrices and feature‑importance rankings.
- 
-  ## **Reproduction**
 
-  In order to reproduce the results, you would first have to download the data [from this Google Drive folder](https://drive.google.com/drive/folders/1AY198qa8gk8iW87a_dNRdUgLBMoL2UQi?usp=drive_link) and place both folders separately in the root directory of the project.
+## **Reproduction**
 
-  Experiments for every model are kept in separate notebooks in the `notebooks` directory
+In order to reproduce the results, you would first have to download the data [from this Google Drive folder](https://drive.google.com/drive/folders/1AY198qa8gk8iW87a_dNRdUgLBMoL2UQi?usp=drive_link) and place both folders separately in the root directory of the project.
 
-  ## **Conclusion**
+Experiments for every model are kept in separate notebooks in the `notebooks` directory
 
-  In the end, based on our findings, we can make the following conclusions:
+## **Conclusion**
+
+In the end, based on our findings, we can make the following conclusions:
 1. Most of the accidents are not fatal and don't lead to injuries.
 2. Bad weather conditions actually decrease the chances of an accident to be fatal
 3. Most accidents happen in populated places
